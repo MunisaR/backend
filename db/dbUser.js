@@ -7,7 +7,7 @@ import moment from "moment/moment.js";
 mongoose.set("strictQuery", false);
 
 connect(
-  "mongodb+srv://armeum:<password>@armeumdev.owmsjm0.mongodb.net/?retryWrites=true&w=majority/emailApp"
+  "mongodb+srv://armeum:armeum@armeumdev.owmsjm0.mongodb.net/?retryWrites=true&w=majority/emailApp"
 );
 const genId = () => {
   return uuidv4();
